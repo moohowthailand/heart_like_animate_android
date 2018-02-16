@@ -1,6 +1,7 @@
 package com.example.soemsak.heartlikeAnimate
 
 import android.app.Activity
+import android.content.Context
 import android.view.View
 import android.widget.ImageView
 import android.graphics.drawable.AnimationDrawable
@@ -93,7 +94,7 @@ open class AnimateUtil{
         soundEffect.start()
     }
 
-    open fun getSoundEffect(activity: Activity): MediaPlayer{
-        return MediaPlayer.create(activity, R.raw.heart_like)
+    open fun getSoundEffect(context: Context): MediaPlayer{
+        return MediaPlayer.create(context.applicationContext, R.raw.heart_like)
     }
 }

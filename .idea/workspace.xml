@@ -121,13 +121,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/jarAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/jarAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heartlikeAnimate/heartlikeAnimate.iml" afterPath="$PROJECT_DIR$/heartlikeAnimate/heartlikeAnimate.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/soemsak/likeanimate/MainActivity.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/soemsak/likeanimate/MainActivity.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/java/com/example/heartlikeAnimate/AnimateUtil.kt" afterPath="$PROJECT_DIR$/heartlikeAnimate/src/main/java/com/example/heartlikeAnimate/AnimateUtil.kt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -243,34 +242,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainActivity.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainActivity.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/soemsak/likeanimate/MainActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="463">
+              <caret line="82" column="8" lean-forward="false" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="8" />
               <folding>
                 <element signature="e#40#483#0" expanded="true" />
-                <element signature="e#1975#3832#2" expanded="false" />
+                <element signature="e#1891#3748#2" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnimateUtil.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AnimateUtil.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/heartlikeAnimate/src/main/java/com/example/heartlikeAnimate/AnimateUtil.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="99" column="1" lean-forward="false" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
+            <state relative-caret-position="435">
+              <caret line="98" column="1" lean-forward="false" selection-start-line="98" selection-start-column="1" selection-end-line="98" selection-end-column="1" />
               <folding>
-                <element signature="e#46#309#0" expanded="true" />
-                <element signature="e#588#1215#0" expanded="false" />
-                <element signature="e#1314#2175#0" expanded="false" />
-                <element signature="e#2315#2627#0" expanded="false" />
-                <element signature="e#2734#3425#0" expanded="false" />
-                <element signature="e#2798#2836#1" expanded="false" />
-                <element signature="e#2863#2927#1" expanded="false" />
-                <element signature="e#3296#3368#2" expanded="false" />
-                <element signature="e#3492#3606#0" expanded="false" />
+                <element signature="e#46#281#0" expanded="true" />
+                <element signature="e#558#1182#0" expanded="false" />
+                <element signature="e#1279#2137#0" expanded="false" />
+                <element signature="e#2277#2589#0" expanded="false" />
+                <element signature="e#2694#3383#0" expanded="false" />
+                <element signature="e#2758#2796#1" expanded="false" />
+                <element signature="e#2823#2887#1" expanded="false" />
+                <element signature="e#3254#3326#2" expanded="false" />
+                <element signature="e#3450#3564#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -3336,7 +3335,7 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1518756841753" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1518758015914" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -3383,7 +3382,7 @@
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
       </Profilers>
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1518756841754" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1518758015914" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -3673,7 +3672,7 @@
           <caret line="46" column="9" lean-forward="false" selection-start-line="40" selection-start-column="16" selection-end-line="46" selection-end-column="9" />
           <folding>
             <element signature="e#40#483#0" expanded="true" />
-            <element signature="e#1975#3832#2" expanded="false" />
+            <element signature="e#1891#3748#2" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3683,15 +3682,15 @@
         <state relative-caret-position="360">
           <caret line="39" column="38" lean-forward="false" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
           <folding>
-            <element signature="e#46#309#0" expanded="true" />
-            <element signature="e#588#1215#0" expanded="false" />
-            <element signature="e#1314#2175#0" expanded="false" />
-            <element signature="e#2315#2627#0" expanded="false" />
-            <element signature="e#2734#3425#0" expanded="false" />
-            <element signature="e#2798#2836#1" expanded="false" />
-            <element signature="e#2863#2927#1" expanded="false" />
-            <element signature="e#3296#3368#2" expanded="false" />
-            <element signature="e#3492#3606#0" expanded="false" />
+            <element signature="e#46#281#0" expanded="true" />
+            <element signature="e#558#1182#0" expanded="false" />
+            <element signature="e#1279#2137#0" expanded="false" />
+            <element signature="e#2277#2589#0" expanded="false" />
+            <element signature="e#2694#3383#0" expanded="false" />
+            <element signature="e#2758#2796#1" expanded="false" />
+            <element signature="e#2823#2887#1" expanded="false" />
+            <element signature="e#3254#3326#2" expanded="false" />
+            <element signature="e#3450#3564#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3713,7 +3712,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#40#483#0" expanded="true" />
-            <element signature="e#1975#3832#2" expanded="false" />
+            <element signature="e#1891#3748#2" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3723,15 +3722,15 @@
         <state relative-caret-position="555">
           <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
-            <element signature="e#46#309#0" expanded="true" />
-            <element signature="e#588#1215#0" expanded="false" />
-            <element signature="e#1314#2175#0" expanded="false" />
-            <element signature="e#2315#2627#0" expanded="false" />
-            <element signature="e#2734#3425#0" expanded="false" />
-            <element signature="e#2798#2836#1" expanded="false" />
-            <element signature="e#2863#2927#1" expanded="false" />
-            <element signature="e#3296#3368#2" expanded="false" />
-            <element signature="e#3492#3606#0" expanded="false" />
+            <element signature="e#46#281#0" expanded="true" />
+            <element signature="e#558#1182#0" expanded="false" />
+            <element signature="e#1279#2137#0" expanded="false" />
+            <element signature="e#2277#2589#0" expanded="false" />
+            <element signature="e#2694#3383#0" expanded="false" />
+            <element signature="e#2758#2796#1" expanded="false" />
+            <element signature="e#2823#2887#1" expanded="false" />
+            <element signature="e#3254#3326#2" expanded="false" />
+            <element signature="e#3450#3564#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3742,7 +3741,7 @@
           <caret line="67" column="69" lean-forward="false" selection-start-line="67" selection-start-column="69" selection-end-line="67" selection-end-column="69" />
           <folding>
             <element signature="e#40#483#0" expanded="true" />
-            <element signature="e#1975#3832#2" expanded="false" />
+            <element signature="e#1891#3748#2" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3785,7 +3784,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#40#483#0" expanded="true" />
-            <element signature="e#1975#3832#2" expanded="false" />
+            <element signature="e#1891#3748#2" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3816,7 +3815,7 @@
           <caret line="75" column="9" lean-forward="false" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
           <folding>
             <element signature="e#40#483#0" expanded="true" />
-            <element signature="e#1975#3832#2" expanded="false" />
+            <element signature="e#1891#3748#2" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3857,7 +3856,7 @@
           <caret line="37" column="82" lean-forward="true" selection-start-line="37" selection-start-column="82" selection-end-line="37" selection-end-column="82" />
           <folding>
             <element signature="e#40#483#0" expanded="true" />
-            <element signature="e#1975#3832#2" expanded="false" />
+            <element signature="e#1891#3748#2" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3961,14 +3960,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-26/android/media/MediaPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="3783" column="28" lean-forward="false" selection-start-line="3783" selection-start-column="23" selection-end-line="3783" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -4020,31 +4011,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heartlikeAnimate/src/main/java/com/example/heartlikeAnimate/AnimateUtil.kt">
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-26/android/media/MediaPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="99" column="1" lean-forward="false" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
-          <folding>
-            <element signature="e#46#309#0" expanded="true" />
-            <element signature="e#588#1215#0" expanded="false" />
-            <element signature="e#1314#2175#0" expanded="false" />
-            <element signature="e#2315#2627#0" expanded="false" />
-            <element signature="e#2734#3425#0" expanded="false" />
-            <element signature="e#2798#2836#1" expanded="false" />
-            <element signature="e#2863#2927#1" expanded="false" />
-            <element signature="e#3296#3368#2" expanded="false" />
-            <element signature="e#3492#3606#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="287">
+          <caret line="945" column="30" lean-forward="false" selection-start-line="945" selection-start-column="30" selection-end-line="945" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/soemsak/likeanimate/MainActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="463">
+          <caret line="82" column="8" lean-forward="false" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="8" />
           <folding>
             <element signature="e#40#483#0" expanded="true" />
-            <element signature="e#1975#3832#2" expanded="false" />
+            <element signature="e#1891#3748#2" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heartlikeAnimate/src/main/java/com/example/heartlikeAnimate/AnimateUtil.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="98" column="1" lean-forward="false" selection-start-line="98" selection-start-column="1" selection-end-line="98" selection-end-column="1" />
+          <folding>
+            <element signature="e#46#281#0" expanded="true" />
+            <element signature="e#558#1182#0" expanded="false" />
+            <element signature="e#1279#2137#0" expanded="false" />
+            <element signature="e#2277#2589#0" expanded="false" />
+            <element signature="e#2694#3383#0" expanded="false" />
+            <element signature="e#2758#2796#1" expanded="false" />
+            <element signature="e#2823#2887#1" expanded="false" />
+            <element signature="e#3254#3326#2" expanded="false" />
+            <element signature="e#3450#3564#0" expanded="false" />
           </folding>
         </state>
       </provider>

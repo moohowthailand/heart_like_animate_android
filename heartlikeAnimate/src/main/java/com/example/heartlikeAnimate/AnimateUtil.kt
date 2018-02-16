@@ -1,6 +1,5 @@
 package com.example.soemsak.heartlikeAnimate
 
-import android.app.Activity
 import android.content.Context
 import android.view.View
 import android.widget.ImageView
@@ -15,7 +14,7 @@ open class AnimateUtil{
     private var duration = 40 //5000/180
     private var startIndex = 0
 
-    open fun initImages(likeValue: Int, activity: Activity, likeStickerImageView: ImageView){
+    open fun initImages(likeValue: Int, context: Context, likeStickerImageView: ImageView){
         startIndex = likeValue
         while (startIndex < 225) {
             if (startIndex < 10) {
@@ -25,14 +24,14 @@ open class AnimateUtil{
             } else {
                 imageName = "heart00" + startIndex
             }
-            val imagesId = activity.resources.getIdentifier(imageName, "drawable", activity.packageName)
-            animation.addFrame(activity.resources.getDrawable(imagesId), duration)
+            val imagesId = context.resources.getIdentifier(imageName, "drawable", context.packageName)
+            animation.addFrame(context.resources.getDrawable(imagesId), duration)
             startIndex++
         }
         likeStickerImageView.setBackgroundDrawable(animation)
     }
 
-    fun animateStartWhenHold(likeValue: Int, likeStickerImageView: ImageView, activity: Activity){
+    fun animateStartWhenHold(likeValue: Int, likeStickerImageView: ImageView, context: Context){
         animation = AnimationDrawable()
         animation.isOneShot = true
         likeStickerImageView.visibility = View.VISIBLE
@@ -45,8 +44,8 @@ open class AnimateUtil{
             } else {
                 imageName = "heart00" + startIndex
             }
-            val globeId = activity.resources.getIdentifier(imageName, "drawable", activity.packageName)
-            animation.addFrame(activity.resources.getDrawable(globeId), duration)
+            val globeId = context.resources.getIdentifier(imageName, "drawable", context.packageName)
+            animation.addFrame(context.resources.getDrawable(globeId), duration)
             startIndex++
         }
         likeStickerImageView.setBackgroundDrawable(animation)
@@ -67,7 +66,7 @@ open class AnimateUtil{
         return like
     }
 
-    fun animateStartWhenClicked(likeValue: Int, likeStickerImageView: ImageView, activity: Activity): Int{
+    fun animateStartWhenClicked(likeValue: Int, likeStickerImageView: ImageView, context: Context): Int{
         var likeValue = likeValue
         if(likeValue >= 100){
             likeValue = 99
@@ -77,7 +76,7 @@ open class AnimateUtil{
         } else if(likeValue <= 100){
             imageName = "heartstill000" + likeValue
         }
-        val imageId = activity.resources.getIdentifier(imageName, "drawable", activity.packageName)
+        val imageId = context.resources.getIdentifier(imageName, "drawable", context.packageName)
         likeStickerImageView.setImageResource(imageId)
         likeStickerImageView.visibility = View.VISIBLE
         val handler = Handler()
@@ -95,6 +94,6 @@ open class AnimateUtil{
     }
 
     open fun getSoundEffect(context: Context): MediaPlayer{
-        return MediaPlayer.create(context.applicationContext, R.raw.heart_like)
+        return MediaPlayer.create(context, R.raw.heart_like)
     }
 }

@@ -30,7 +30,6 @@ class MainActivity : AppCompatActivity(), SeekBar.OnSeekBarChangeListener {
         val likeStickerImageView = findViewById<ImageView>(R.id.likeStickerImageView)
         val seekBar = findViewById<SeekBar>(R.id.seekBar)
         val likeButton = findViewById<Button>(R.id.likeButton)
-//        var soundEffect = MediaPlayer.create(this@MainActivity, R.raw.heart_like)
         var soundEffect = animateUtil.getSoundEffect(this@MainActivity)
         seekBar.setOnSeekBarChangeListener(this)
 

@@ -7,10 +7,10 @@ import android.view.View
 import android.graphics.drawable.AnimationDrawable
 import android.media.MediaPlayer
 import android.widget.*
-import com.example.soemsak.likeanimate.helper.AnimateUtil
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
 import android.graphics.drawable.StateListDrawable
+import com.example.soemsak.heartlikeAnimate.AnimateUtil
 
 class MainActivity : AppCompatActivity(), SeekBar.OnSeekBarChangeListener {
     var isLongPressLike = false

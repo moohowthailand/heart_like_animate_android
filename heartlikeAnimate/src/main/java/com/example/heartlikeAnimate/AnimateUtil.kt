@@ -1,4 +1,4 @@
-package com.example.soemsak.likeanimate.helper
+package com.example.soemsak.heartlikeAnimate
 
 import android.app.Activity
 import android.view.View
@@ -8,13 +8,13 @@ import android.media.MediaPlayer
 import android.os.Handler
 import com.example.heartlikeAnimate.R
 
-class AnimateUtil{
+open class AnimateUtil{
     private var animation = AnimationDrawable()
     private var imageName: String? = ""
     private var duration = 40 //5000/180
     private var startIndex = 0
 
-    fun initImages(likeValue: Int, activity: Activity, likeStickerImageView: ImageView){
+    open fun initImages(likeValue: Int, activity: Activity, likeStickerImageView: ImageView){
         startIndex = likeValue
         while (startIndex < 225) {
             if (startIndex < 10) {
@@ -93,7 +93,7 @@ class AnimateUtil{
         soundEffect.start()
     }
 
-    fun getSoundEffect(activity: Activity): MediaPlayer{
+    open fun getSoundEffect(activity: Activity): MediaPlayer{
         return MediaPlayer.create(activity, R.raw.heart_like)
     }
 }

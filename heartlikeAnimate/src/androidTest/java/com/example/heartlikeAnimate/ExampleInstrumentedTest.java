@@ -1,4 +1,4 @@
-package com.example.bttidolslikeanimation;
+package com.example.heartlikeAnimate;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

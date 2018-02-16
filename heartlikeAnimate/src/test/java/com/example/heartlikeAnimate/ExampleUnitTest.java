@@ -1,4 +1,4 @@
-package com.example.bttidolslikeanimation;
+package com.example.heartlikeAnimate;
 
 import org.junit.Test;
 

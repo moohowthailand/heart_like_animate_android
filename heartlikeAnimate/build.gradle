@@ -49,5 +49,5 @@ task createJar(type: Copy) {
     from('build/intermediates/bundles/debug/')
     into('libs/jars/')
     include('classes.jar')
-    rename('classes.jar', 'testgradlebuildtool.jar')
+    rename('classes.jar', 'heartlikeAnimate.jar')
 }

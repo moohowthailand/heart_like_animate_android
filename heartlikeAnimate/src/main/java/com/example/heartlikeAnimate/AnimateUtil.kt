@@ -22,13 +22,13 @@ open class AnimateUtil{
 
     open fun initImages(likeValue: Int, context: Context, likeStickerImageView: ImageView){
         startIndex = likeValue
-        while (startIndex < 225) {
+        while (startIndex < 180) {
             if (startIndex < 10) {
-                imageName = "heart0000" + startIndex
+                imageName = "heartpumping0000" + startIndex
             } else if (startIndex < 100) {
-                imageName = "heart000" + startIndex
+                imageName = "heartpumping000" + startIndex
             } else {
-                imageName = "heart00" + startIndex
+                imageName = "heartpumping00" + startIndex
             }
             val imagesId = context.resources.getIdentifier(imageName, "drawable", context.packageName)
             animation.addFrame(context.resources.getDrawable(imagesId), duration)
@@ -42,13 +42,13 @@ open class AnimateUtil{
         animation.isOneShot = true
         likeStickerImageView.visibility = View.VISIBLE
         startIndex = ((likeValue * 1.25) + 0.5).toInt()
-        while (startIndex < 225) {
+        while (startIndex < 180) {
             if (startIndex < 10) {
-                imageName = "heart0000" + startIndex
+                imageName = "heartpumping0000" + startIndex
             } else if (startIndex < 100) {
-                imageName = "heart000" + startIndex
+                imageName = "heartpumping000" + startIndex
             } else {
-                imageName = "heart00" + startIndex
+                imageName = "heartpumping00" + startIndex
             }
             val globeId = context.resources.getIdentifier(imageName, "drawable", context.packageName)
             animation.addFrame(context.resources.getDrawable(globeId), duration)

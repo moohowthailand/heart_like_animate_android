@@ -15,7 +15,7 @@ import com.example.soemsak.heartlikeAnimate.AnimateUtil
 class MainActivity : AppCompatActivity(), SeekBar.OnSeekBarChangeListener {
     var isLongPressLike = false
     val _handler = Handler()
-    val LONG_PRESS_TIME = 600 // Time in miliseconds (100)
+    val LONG_PRESS_TIME = 300 // Time in miliseconds (100)
     private var mylikeValue: Int = 0
     var animation = AnimationDrawable()
     var timeClicked: Long = 0

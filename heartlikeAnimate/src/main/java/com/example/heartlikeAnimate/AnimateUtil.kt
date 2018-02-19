@@ -7,6 +7,12 @@ import android.graphics.drawable.AnimationDrawable
 import android.media.MediaPlayer
 import android.os.Handler
 import com.example.heartlikeAnimate.R
+import android.view.animation.Animation
+import android.view.animation.Animation.AnimationListener
+import android.view.animation.AccelerateInterpolator
+import android.view.animation.AlphaAnimation
+
+
 
 open class AnimateUtil{
     private var animation = AnimationDrawable()
@@ -79,12 +85,28 @@ open class AnimateUtil{
         val imageId = context.resources.getIdentifier(imageName, "drawable", context.packageName)
         likeStickerImageView.setImageResource(imageId)
         likeStickerImageView.visibility = View.VISIBLE
-        val handler = Handler()
-        handler.postDelayed(Runnable {
-            likeStickerImageView.visibility = View.INVISIBLE
-        }, 600)
+//        val handler = Handler()
+//        handler.postDelayed(Runnable {
+//            likeStickerImageView.visibility = View.INVISIBLE
+//        }, 300)
+        fadeOutAndHideImage(likeStickerImageView)
         likeValue++
         return likeValue
+    }
+
+    private fun fadeOutAndHideImage(img: ImageView) {
+        val fadeOut = AlphaAnimation(1f, 0f)
+        fadeOut.interpolator = AccelerateInterpolator()
+        fadeOut.duration = 200
+        fadeOut.setAnimationListener(object : AnimationListener {
+            override fun onAnimationEnd(animation: Animation) {
+                img.visibility = View.GONE
+            }
+
+            override fun onAnimationRepeat(animation: Animation) {}
+            override fun onAnimationStart(animation: Animation) {}
+        })
+        img.startAnimation(fadeOut)
     }
 
     fun playDelayEffect(soundEffect :MediaPlayer, likeValue: Int){

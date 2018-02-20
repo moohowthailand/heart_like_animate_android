@@ -5,13 +5,12 @@ import android.view.View
 import android.widget.ImageView
 import android.graphics.drawable.AnimationDrawable
 import android.media.MediaPlayer
-import android.os.Handler
 import com.example.heartlikeAnimate.R
 import android.view.animation.Animation
 import android.view.animation.Animation.AnimationListener
 import android.view.animation.AccelerateInterpolator
 import android.view.animation.AlphaAnimation
-
+import com.example.heartlikeAnimate.AnimationDrawableResource
 
 
 open class AnimateUtil{
@@ -19,50 +18,36 @@ open class AnimateUtil{
     private var imageName: String? = ""
     private var duration = 40 //5000/180
     private var startIndex = 0
+    var soundEffect:MediaPlayer? = null
 
-    open fun initImages(likeValue: Int, context: Context, likeStickerImageView: ImageView){
-        startIndex = likeValue
-        while (startIndex < 180) {
-            if (startIndex < 10) {
-                imageName = "heartpumping0000" + startIndex
-            } else if (startIndex < 100) {
-                imageName = "heartpumping000" + startIndex
-            } else {
-                imageName = "heartpumping00" + startIndex
-            }
-            val imagesId = context.resources.getIdentifier(imageName, "drawable", context.packageName)
-            animation.addFrame(context.resources.getDrawable(imagesId), duration)
-            startIndex++
+    fun prepareImages(likeValue: Int, likeStickerImageView: ImageView, context: Context){
+        likeStickerImageView.setBackgroundDrawable(null)
+        animation = AnimationDrawable()// likeStickerImageView.background as AnimationDrawable
+        animation.isOneShot = true
+        var index = ((likeValue * 1.25)).toInt()
+        while (index < 180) {
+            animation.addFrame(AnimationDrawableResource.getInstance(context).getDrawables()[index],duration)
+            index++
         }
         likeStickerImageView.setBackgroundDrawable(animation)
     }
 
     fun animateStartWhenHold(likeValue: Int, likeStickerImageView: ImageView, context: Context){
-        animation = AnimationDrawable()
-        animation.isOneShot = true
         likeStickerImageView.visibility = View.VISIBLE
-        startIndex = ((likeValue * 1.25) + 0.5).toInt()
-        while (startIndex < 180) {
-            if (startIndex < 10) {
-                imageName = "heartpumping0000" + startIndex
-            } else if (startIndex < 100) {
-                imageName = "heartpumping000" + startIndex
-            } else {
-                imageName = "heartpumping00" + startIndex
-            }
-            val globeId = context.resources.getIdentifier(imageName, "drawable", context.packageName)
-            animation.addFrame(context.resources.getDrawable(globeId), duration)
-            startIndex++
-        }
-        likeStickerImageView.setBackgroundDrawable(animation)
-        likeStickerImageView.visibility = View.VISIBLE
+        soundEffect = getSoundEffect(context)
+        soundEffect!!.seekTo((likeValue * 50))
         animation.start()
+        soundEffect!!.start()
     }
 
     fun disapearAnimateWhenTouchOutFromHold(likeStickerImageView: ImageView, timeClicked: Long, timeReleased: Long, cuurentLike: Int): Int{
         var like = (((timeReleased - timeClicked)/1000.0)* 20.0).toInt()
         likeStickerImageView.visibility = View.INVISIBLE
         animation.stop()
+        soundEffect!!.stop()
+        likeStickerImageView.setImageResource(0)
+        likeStickerImageView.setImageDrawable(null)
+        likeStickerImageView.setBackgroundDrawable(null)
         if(like < cuurentLike){
             like = cuurentLike
         }
@@ -85,10 +70,6 @@ open class AnimateUtil{
         val imageId = context.resources.getIdentifier(imageName, "drawable", context.packageName)
         likeStickerImageView.setImageResource(imageId)
         likeStickerImageView.visibility = View.VISIBLE
-//        val handler = Handler()
-//        handler.postDelayed(Runnable {
-//            likeStickerImageView.visibility = View.INVISIBLE
-//        }, 300)
         fadeOutAndHideImage(likeStickerImageView)
         likeValue++
         return likeValue
@@ -102,17 +83,10 @@ open class AnimateUtil{
             override fun onAnimationEnd(animation: Animation) {
                 img.visibility = View.GONE
             }
-
             override fun onAnimationRepeat(animation: Animation) {}
             override fun onAnimationStart(animation: Animation) {}
         })
         img.startAnimation(fadeOut)
-    }
-
-    fun playDelayEffect(soundEffect :MediaPlayer, likeValue: Int){
-        val startTime = (likeValue * 50)
-        soundEffect.seekTo(startTime)
-        soundEffect.start()
     }
 
     open fun getSoundEffect(context: Context): MediaPlayer{

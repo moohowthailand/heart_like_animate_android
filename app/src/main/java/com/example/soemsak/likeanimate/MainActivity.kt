@@ -33,22 +33,22 @@ class MainActivity : AppCompatActivity(), SeekBar.OnSeekBarChangeListener {
         var soundEffect = animateUtil.getSoundEffect(this@MainActivity)
         seekBar.setOnSeekBarChangeListener(this)
 
-        val _longPressed = Runnable {
-            soundEffect = MediaPlayer.create(this@MainActivity, R.raw.heart_like)
-            animateUtil.playDelayEffect(soundEffect, mylikeValue)
+        val _longPressedButton = Runnable {
             likeStickerImageView.setImageDrawable(StateListDrawable())
             animateUtil.animateStartWhenHold(mylikeValue, likeStickerImageView, this@MainActivity)
             isLongPressLike = true
         }
-        animateUtil.initImages(mylikeValue, this@MainActivity, likeStickerImageView)
+
+        animateUtil.prepareImages(mylikeValue, likeStickerImageView, this@MainActivity)
         likeButton.setOnTouchListener { view, motionEvent ->
             when (motionEvent.getAction()) {
                 MotionEvent.ACTION_DOWN -> {
+                    animateUtil.prepareImages(mylikeValue, likeStickerImageView, this@MainActivity)
                     timeClicked = Date().time
-                    _handler.postDelayed(_longPressed, LONG_PRESS_TIME.toLong())
+                    _handler.postDelayed(_longPressedButton, LONG_PRESS_TIME.toLong())
                 }
                 MotionEvent.ACTION_CANCEL -> {
-                    _handler.removeCallbacks(_longPressed)
+                    _handler.removeCallbacks(_longPressedButton)
                     if(isLongPressLike){
                         isLongPressLike = false
                         animation.stop()
@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity(), SeekBar.OnSeekBarChangeListener {
                 }
                 MotionEvent.ACTION_UP -> {
                     timeReleased = Date().time
-                    _handler.removeCallbacks(_longPressed)
+                    _handler.removeCallbacks(_longPressedButton)
                     soundEffect.stop()
                     if(isLongPressLike){ //ดึงมือขึ้นจากการ hold
                         isLongPressLike = false
@@ -65,7 +65,54 @@ class MainActivity : AppCompatActivity(), SeekBar.OnSeekBarChangeListener {
                         likeStickerImageView.visibility = View.INVISIBLE
                         mylikeValue = animateUtil.disapearAnimateWhenTouchOutFromHold(likeStickerImageView, timeClicked, timeReleased, mylikeValue)
                         Toast.makeText(this@MainActivity, mylikeValue.toString(), Toast.LENGTH_LONG).show()
-                    }else { //ดึงมือขึ้นจากการ hold
+                    }else {
+                        likeStickerImageView.setImageDrawable(StateListDrawable())
+//                        mylikeValue = AnimateUtil.animateStartWhenClicked(mylikeValue,likeStickerImageView, this@MainActivity)
+                        mylikeValue = animateUtil.animateStartWhenClicked(mylikeValue,likeStickerImageView, this@MainActivity)
+                        Toast.makeText(this@MainActivity, mylikeValue.toString(), Toast.LENGTH_LONG).show()
+                    }
+                }
+            }
+            true
+        }
+        reset.setOnClickListener {
+            mylikeValue = 0
+            likeStickerImageView.setImageDrawable(StateListDrawable())
+        }
+
+
+        val _longPressedImage = Runnable {
+            likeStickerImageView.setImageDrawable(StateListDrawable())
+            animateUtil.animateStartWhenHold(mylikeValue, likeStickerImageView, this@MainActivity)
+            isLongPressLike = true
+        }
+
+        postImageView.setOnTouchListener { v, motionEvent ->
+            when (motionEvent.getAction()) {
+                MotionEvent.ACTION_DOWN -> {
+                    animateUtil.prepareImages(mylikeValue, likeStickerImageView, this@MainActivity)
+                    timeClicked = Date().time
+                    _handler.postDelayed(_longPressedImage, LONG_PRESS_TIME.toLong())
+                }
+                MotionEvent.ACTION_CANCEL -> {
+                    _handler.removeCallbacks(_longPressedImage)
+                    if(isLongPressLike){
+                        isLongPressLike = false
+                        animation.stop()
+                        likeStickerImageView.visibility = View.INVISIBLE
+                    }
+                }
+                MotionEvent.ACTION_UP -> {
+                    timeReleased = Date().time
+                    _handler.removeCallbacks(_longPressedImage)
+                    soundEffect.stop()
+                    if(isLongPressLike){ //ดึงมือขึ้นจากการ hold
+                        isLongPressLike = false
+                        animation.stop()
+                        likeStickerImageView.visibility = View.INVISIBLE
+                        mylikeValue = animateUtil.disapearAnimateWhenTouchOutFromHold(likeStickerImageView, timeClicked, timeReleased, mylikeValue)
+                        Toast.makeText(this@MainActivity, mylikeValue.toString(), Toast.LENGTH_LONG).show()
+                    }else {
                         likeStickerImageView.setImageDrawable(StateListDrawable())
 //                        mylikeValue = AnimateUtil.animateStartWhenClicked(mylikeValue,likeStickerImageView, this@MainActivity)
                         mylikeValue = animateUtil.animateStartWhenClicked(mylikeValue,likeStickerImageView, this@MainActivity)
@@ -76,10 +123,6 @@ class MainActivity : AppCompatActivity(), SeekBar.OnSeekBarChangeListener {
             true
         }
 
-        reset.setOnClickListener {
-            mylikeValue = 0
-            likeStickerImageView.setImageDrawable(StateListDrawable())
-        }
         
     }
 

@@ -64,12 +64,9 @@ class MainActivity : AppCompatActivity(), SeekBar.OnSeekBarChangeListener {
                         animation.stop()
                         likeStickerImageView.visibility = View.INVISIBLE
                         mylikeValue = animateUtil.disapearAnimateWhenTouchOutFromHold(likeStickerImageView, timeClicked, timeReleased, mylikeValue)
-                        Toast.makeText(this@MainActivity, mylikeValue.toString(), Toast.LENGTH_LONG).show()
                     }else {
                         likeStickerImageView.setImageDrawable(StateListDrawable())
-//                        mylikeValue = AnimateUtil.animateStartWhenClicked(mylikeValue,likeStickerImageView, this@MainActivity)
                         mylikeValue = animateUtil.animateStartWhenClicked(mylikeValue,likeStickerImageView, this@MainActivity)
-                        Toast.makeText(this@MainActivity, mylikeValue.toString(), Toast.LENGTH_LONG).show()
                     }
                 }
             }
@@ -114,7 +111,6 @@ class MainActivity : AppCompatActivity(), SeekBar.OnSeekBarChangeListener {
                         Toast.makeText(this@MainActivity, mylikeValue.toString(), Toast.LENGTH_LONG).show()
                     }else {
                         likeStickerImageView.setImageDrawable(StateListDrawable())
-//                        mylikeValue = AnimateUtil.animateStartWhenClicked(mylikeValue,likeStickerImageView, this@MainActivity)
                         mylikeValue = animateUtil.animateStartWhenClicked(mylikeValue,likeStickerImageView, this@MainActivity)
                         Toast.makeText(this@MainActivity, mylikeValue.toString(), Toast.LENGTH_LONG).show()
                     }

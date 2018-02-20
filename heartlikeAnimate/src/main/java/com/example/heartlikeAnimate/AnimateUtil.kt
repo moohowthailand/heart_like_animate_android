@@ -6,11 +6,9 @@ import android.widget.ImageView
 import android.graphics.drawable.AnimationDrawable
 import android.media.MediaPlayer
 import com.example.heartlikeAnimate.R
-import android.view.animation.Animation
-import android.view.animation.Animation.AnimationListener
-import android.view.animation.AccelerateInterpolator
-import android.view.animation.AlphaAnimation
 import com.example.heartlikeAnimate.AnimationDrawableResource
+import android.animation.ObjectAnimator
+import android.annotation.SuppressLint
 
 
 open class AnimateUtil{
@@ -33,6 +31,7 @@ open class AnimateUtil{
     }
 
     fun animateStartWhenHold(likeValue: Int, likeStickerImageView: ImageView, context: Context){
+        likeStickerImageView.alpha = 1f
         likeStickerImageView.visibility = View.VISIBLE
         soundEffect = getSoundEffect(context)
         soundEffect!!.seekTo((likeValue * 50))
@@ -67,7 +66,16 @@ open class AnimateUtil{
         } else if(likeValue <= 100){
             imageName = "heartstill000" + likeValue
         }
+
+        if(likeStickerImageView.alpha < 1f){
+
+        }
+
+        likeStickerImageView.setImageResource(0)
+        likeStickerImageView.setImageDrawable(null)
+        likeStickerImageView.setBackgroundDrawable(null)
         val imageId = context.resources.getIdentifier(imageName, "drawable", context.packageName)
+        likeStickerImageView.alpha = 1f
         likeStickerImageView.setImageResource(imageId)
         likeStickerImageView.visibility = View.VISIBLE
         fadeOutAndHideImage(likeStickerImageView)
@@ -75,18 +83,9 @@ open class AnimateUtil{
         return likeValue
     }
 
+    @SuppressLint("ObjectAnimatorBinding")
     private fun fadeOutAndHideImage(img: ImageView) {
-        val fadeOut = AlphaAnimation(1f, 0f)
-        fadeOut.interpolator = AccelerateInterpolator()
-        fadeOut.duration = 200
-        fadeOut.setAnimationListener(object : AnimationListener {
-            override fun onAnimationEnd(animation: Animation) {
-                img.visibility = View.GONE
-            }
-            override fun onAnimationRepeat(animation: Animation) {}
-            override fun onAnimationStart(animation: Animation) {}
-        })
-        img.startAnimation(fadeOut)
+        img.animate().alpha(0F).setDuration(1000).start()
     }
 
     open fun getSoundEffect(context: Context): MediaPlayer{

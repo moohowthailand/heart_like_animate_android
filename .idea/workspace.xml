@@ -15,344 +15,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="279625bb-5c04-4e83-8744-e888df68750a" name="Default" comment="v2">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heartlikeAnimate/src/main/java/com/example/heartlikeAnimate/AnimationDrawableResource.kt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-09-40-48-633.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-09-40-48-633.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-09-45-34-349.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-09-45-34-349.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-09-46-22-785.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-09-46-22-785.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-09-46-58-940.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-09-46-58-940.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-09-47-59-487.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-09-47-59-487.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-09-58-32-736.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-09-58-32-736.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-09-59-01-870.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-09-59-01-870.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-10-04-02-728.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-10-04-02-728.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-10-05-22-396.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-10-05-22-396.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-10-07-18-297.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-10-07-18-297.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-10-08-10-982.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-10-08-10-982.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-10-09-39-458.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-10-09-39-458.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-10-15-33-122.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-10-15-33-122.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-10-32-28-816.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-10-32-28-816.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-10-33-51-877.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-10-33-51-877.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-10-34-05-115.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-10-34-05-115.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-11-42-31-037.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-11-42-31-037.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-11-52-15-938.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-11-52-15-938.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-13-53-41-093.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-13-53-41-093.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-14-43-15-274.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-14-43-15-274.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-14-44-31-960.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-14-44-31-960.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-15-11-12-139.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-15-11-12-139.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-15-15-28-965.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-15-15-28-965.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-15-16-45-491.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-15-16-45-491.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-15-18-02-058.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-15-18-02-058.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-15-29-16-753.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-15-29-16-753.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-15-31-58-953.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-15-31-58-953.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-15-33-34-728.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-15-33-34-728.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-15-41-33-684.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-15-41-33-684.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-15-42-04-697.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-15-42-04-697.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-16-28-46-598.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-16-28-46-598.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-16-33-14-395.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-16-33-14-395.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-16-37-51-141.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-16-37-51-141.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-16-41-19-341.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-16-41-19-341.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-16-42-45-684.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-16-42-45-684.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-16-44-57-602.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-16-44-57-602.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-16-45-26-927.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-16-45-26-927.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-16-47-44-174.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-16-47-44-174.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-16-48-24-729.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-16-48-24-729.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-16-57-25-599.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-16-57-25-599.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-17-11-25-411.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-15-17-11-25-411.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-16-10-12-34-860.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-16-10-12-34-860.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-16-10-17-20-175.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-16-10-17-20-175.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-16-10-19-52-891.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-16-10-19-52-891.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-16-10-26-26-372.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-16-10-26-26-372.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-16-10-28-04-797.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-16-10-28-04-797.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-16-10-49-00-039.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-16-10-49-00-039.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-16-11-27-34-148.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-16-11-27-34-148.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-16-11-28-48-296.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-16-11-28-48-296.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-16-11-31-36-283.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-02-16-11-31-36-283.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00000.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00001.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00002.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00003.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00004.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00005.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00006.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00007.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00008.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00009.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00010.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00011.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00013.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00014.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00015.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00016.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00017.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00018.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00019.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00020.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00021.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00022.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00023.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00024.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00025.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00026.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00027.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00028.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00029.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00030.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00031.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00032.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00033.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00034.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00035.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00036.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00037.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00038.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00039.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00040.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00041.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00042.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00043.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00044.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00045.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00046.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00047.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00048.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00049.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00050.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00051.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00052.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00053.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00054.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00055.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00056.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00057.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00058.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00059.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00060.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00061.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00062.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00063.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00064.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00065.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00066.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00067.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00068.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00069.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00070.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00071.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00072.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00073.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00074.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00075.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00076.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00077.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00078.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00079.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00080.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00081.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00082.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00083.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00084.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00085.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00086.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00087.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00088.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00089.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00090.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00091.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00092.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00093.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00094.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00095.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00096.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00097.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00098.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00099.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00101.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00102.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00103.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00104.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00105.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00106.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00107.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00108.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00109.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00110.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00111.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00113.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00114.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00115.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00116.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00117.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00118.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00119.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00120.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00121.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00122.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00123.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00124.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00125.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00126.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00127.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00128.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00129.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00130.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00131.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00132.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00133.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00134.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00135.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00136.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00137.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00138.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00139.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00140.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00141.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00142.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00143.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00144.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00145.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00146.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00147.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00148.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00149.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00150.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00151.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00152.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00153.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00154.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00155.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00156.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00157.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00158.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00159.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00160.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00161.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00162.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00163.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00164.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00165.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00166.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00167.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00168.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00169.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00170.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00171.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00172.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00173.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00174.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00175.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00176.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00177.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00178.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00179.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00180.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00181.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00182.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00183.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00184.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00185.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00186.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00187.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00188.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00189.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00190.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00191.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00192.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00193.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00194.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00195.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00196.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00197.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00198.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00199.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00200.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00201.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00202.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00203.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00204.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00205.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00206.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00207.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00208.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00209.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00210.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00211.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00212.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00213.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00214.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00215.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00216.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00217.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00218.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00219.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00220.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00221.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00222.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00223.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/drawable-xhdpi/heart00224.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/jarAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/jarAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/raw/heart_like.mp3" afterPath="$PROJECT_DIR$/heartlikeAnimate/src/main/res/raw/heart_like.mp3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/soemsak/likeanimate/MainActivity.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/soemsak/likeanimate/MainActivity.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heartlikeAnimate/src/main/java/com/example/heartlikeAnimate/AnimateUtil.kt" afterPath="$PROJECT_DIR$/heartlikeAnimate/src/main/java/com/example/heartlikeAnimate/AnimateUtil.kt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -468,31 +145,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainActivity.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/soemsak/likeanimate/MainActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+            <state relative-caret-position="141">
+              <caret line="29" column="85" lean-forward="false" selection-start-line="29" selection-start-column="85" selection-end-line="29" selection-end-column="85" />
               <folding>
                 <element signature="e#40#483#0" expanded="true" />
-                <element signature="e#1864#2116#0" expanded="false" />
-                <element signature="e#2513#3663#0" expanded="false" />
-                <element signature="e#3738#3848#2" expanded="false" />
-                <element signature="e#4259#4510#0" expanded="false" />
-                <element signature="e#4556#4864#0" expanded="false" />
-                <element signature="e#4906#6055#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AnimateUtil.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/heartlikeAnimate/src/main/java/com/example/heartlikeAnimate/AnimateUtil.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="34" column="86" lean-forward="true" selection-start-line="34" selection-start-column="86" selection-end-line="34" selection-end-column="86" />
-              <folding>
-                <element signature="e#46#513#0" expanded="true" />
+                <element signature="e#3393#3503#2" expanded="false" />
+                <element signature="e#3806#5622#2" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -501,7 +162,7 @@
       <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
           <provider editor-type-id="text-editor">
-            <state relative-caret-position="393">
+            <state relative-caret-position="570">
               <caret line="38" column="18" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
               <folding />
             </state>
@@ -534,6 +195,11 @@
       <find>animation</find>
       <find>playDelayEffect</find>
       <find>prepareImages</find>
+      <find>AnimationDrawableResource</find>
+      <find>fadeOutAndHideImage</find>
+      <find>_longPressedButton</find>
+      <find>animateStartWhenHold</find>
+      <find>toas</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -3273,16 +2939,15 @@
         <option value="$PROJECT_DIR$/heartlikeAnimate/build.gradle" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/soemsak/likeanimate/helper/AnimateUtilDemo.kt" />
         <option value="$PROJECT_DIR$/heartlikeAnimate/src/main/java/com/example/heartlikeAnimate/AnimationDrawableResource.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/soemsak/likeanimate/MainActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/heartlikeAnimate/src/main/java/com/example/heartlikeAnimate/AnimateUtil.kt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1938" />
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="977" />
@@ -3303,10 +2968,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
-      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -3319,106 +2980,12 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidBuildScriptsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="heart_like_animate_android" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="heartlikeAnimate" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="heart_like_animate_android" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="heartlikeAnimate" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="heart_like_animate_android" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="heartlikeAnimate" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="heartlikeAnimate" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="heart_like_animate_android" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="heartlikeAnimate" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="heart_like_animate_android" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="heart_like_animate_android" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="heart_like_animate_android" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="likeanimate" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3428,6 +2995,7 @@
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/heartlikeAnimate/src/main/java" />
+    <property name="android.profiler.active" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
@@ -3576,7 +3144,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519099051407" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519123736743" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -3624,7 +3192,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519099051407" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519123736743" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -3656,27 +3224,6 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
@@ -3807,7 +3354,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519099051412" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519123736744" />
       </method>
     </configuration>
     <list size="4">
@@ -3865,10 +3412,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1938" y="23" width="1920" height="977" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1920" height="977" extended-state="6" />
     <layout>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32807216" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -3876,7 +3422,6 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39954853" sideWeight="0.5021299" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -3890,7 +3435,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43517473" sideWeight="0.4978701" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43517473" sideWeight="0.4978701" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -3898,6 +3443,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -3906,7 +3452,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="86" />
+      <option name="time" value="95" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -3917,12 +3463,8 @@
           <caret line="27" column="46" lean-forward="false" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
           <folding>
             <element signature="e#40#483#0" expanded="true" />
-            <element signature="e#1864#2116#0" expanded="false" />
-            <element signature="e#2513#3663#0" expanded="false" />
-            <element signature="e#3738#3848#2" expanded="false" />
-            <element signature="e#4259#4510#0" expanded="false" />
-            <element signature="e#4556#4864#0" expanded="false" />
-            <element signature="e#4906#6055#0" expanded="false" />
+            <element signature="e#3393#3503#2" expanded="false" />
+            <element signature="e#3806#5622#2" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3943,7 +3485,7 @@
         <state relative-caret-position="495">
           <caret line="43" column="39" lean-forward="false" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="39" />
           <folding>
-            <element signature="e#46#513#0" expanded="true" />
+            <element signature="e#46#396#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3954,12 +3496,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#40#483#0" expanded="true" />
-            <element signature="e#1864#2116#0" expanded="false" />
-            <element signature="e#2513#3663#0" expanded="false" />
-            <element signature="e#3738#3848#2" expanded="false" />
-            <element signature="e#4259#4510#0" expanded="false" />
-            <element signature="e#4556#4864#0" expanded="false" />
-            <element signature="e#4906#6055#0" expanded="false" />
+            <element signature="e#3393#3503#2" expanded="false" />
+            <element signature="e#3806#5622#2" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3969,7 +3507,7 @@
         <state relative-caret-position="1245">
           <caret line="89" column="23" lean-forward="false" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="23" />
           <folding>
-            <element signature="e#46#513#0" expanded="true" />
+            <element signature="e#46#396#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3991,12 +3529,8 @@
           <caret line="46" column="9" lean-forward="false" selection-start-line="40" selection-start-column="16" selection-end-line="46" selection-end-column="9" />
           <folding>
             <element signature="e#40#483#0" expanded="true" />
-            <element signature="e#1864#2116#0" expanded="false" />
-            <element signature="e#2513#3663#0" expanded="false" />
-            <element signature="e#3738#3848#2" expanded="false" />
-            <element signature="e#4259#4510#0" expanded="false" />
-            <element signature="e#4556#4864#0" expanded="false" />
-            <element signature="e#4906#6055#0" expanded="false" />
+            <element signature="e#3393#3503#2" expanded="false" />
+            <element signature="e#3806#5622#2" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -4006,7 +3540,7 @@
         <state relative-caret-position="360">
           <caret line="39" column="38" lean-forward="false" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
           <folding>
-            <element signature="e#46#513#0" expanded="true" />
+            <element signature="e#46#396#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -4028,12 +3562,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#40#483#0" expanded="true" />
-            <element signature="e#1864#2116#0" expanded="false" />
-            <element signature="e#2513#3663#0" expanded="false" />
-            <element signature="e#3738#3848#2" expanded="false" />
-            <element signature="e#4259#4510#0" expanded="false" />
-            <element signature="e#4556#4864#0" expanded="false" />
-            <element signature="e#4906#6055#0" expanded="false" />
+            <element signature="e#3393#3503#2" expanded="false" />
+            <element signature="e#3806#5622#2" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -4043,7 +3573,7 @@
         <state relative-caret-position="555">
           <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
-            <element signature="e#46#513#0" expanded="true" />
+            <element signature="e#46#396#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -4054,12 +3584,8 @@
           <caret line="67" column="69" lean-forward="false" selection-start-line="67" selection-start-column="69" selection-end-line="67" selection-end-column="69" />
           <folding>
             <element signature="e#40#483#0" expanded="true" />
-            <element signature="e#1864#2116#0" expanded="false" />
-            <element signature="e#2513#3663#0" expanded="false" />
-            <element signature="e#3738#3848#2" expanded="false" />
-            <element signature="e#4259#4510#0" expanded="false" />
-            <element signature="e#4556#4864#0" expanded="false" />
-            <element signature="e#4906#6055#0" expanded="false" />
+            <element signature="e#3393#3503#2" expanded="false" />
+            <element signature="e#3806#5622#2" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -4069,7 +3595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="76" lean-forward="false" selection-start-line="19" selection-start-column="76" selection-end-line="19" selection-end-column="76" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4077,7 +3602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4085,7 +3609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="82" lean-forward="false" selection-start-line="15" selection-start-column="82" selection-end-line="15" selection-end-column="82" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4095,12 +3618,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#40#483#0" expanded="true" />
-            <element signature="e#1864#2116#0" expanded="false" />
-            <element signature="e#2513#3663#0" expanded="false" />
-            <element signature="e#3738#3848#2" expanded="false" />
-            <element signature="e#4259#4510#0" expanded="false" />
-            <element signature="e#4556#4864#0" expanded="false" />
-            <element signature="e#4906#6055#0" expanded="false" />
+            <element signature="e#3393#3503#2" expanded="false" />
+            <element signature="e#3806#5622#2" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -4124,12 +3643,8 @@
           <caret line="75" column="9" lean-forward="false" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
           <folding>
             <element signature="e#40#483#0" expanded="true" />
-            <element signature="e#1864#2116#0" expanded="false" />
-            <element signature="e#2513#3663#0" expanded="false" />
-            <element signature="e#3738#3848#2" expanded="false" />
-            <element signature="e#4259#4510#0" expanded="false" />
-            <element signature="e#4556#4864#0" expanded="false" />
-            <element signature="e#4906#6055#0" expanded="false" />
+            <element signature="e#3393#3503#2" expanded="false" />
+            <element signature="e#3806#5622#2" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -4163,12 +3678,8 @@
           <caret line="37" column="82" lean-forward="true" selection-start-line="37" selection-start-column="82" selection-end-line="37" selection-end-column="82" />
           <folding>
             <element signature="e#40#483#0" expanded="true" />
-            <element signature="e#1864#2116#0" expanded="false" />
-            <element signature="e#2513#3663#0" expanded="false" />
-            <element signature="e#3738#3848#2" expanded="false" />
-            <element signature="e#4259#4510#0" expanded="false" />
-            <element signature="e#4556#4864#0" expanded="false" />
-            <element signature="e#4906#6055#0" expanded="false" />
+            <element signature="e#3393#3503#2" expanded="false" />
+            <element signature="e#3806#5622#2" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -4286,11 +3797,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heartlikeAnimate/build.gradle">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="31" column="60" lean-forward="false" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
-          <folding />
+        <state relative-caret-position="450">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -4298,31 +3808,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="75" lean-forward="false" selection-start-line="26" selection-start-column="75" selection-end-line="26" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/heartlikeAnimate/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heartlikeAnimate/src/main/java/com/example/heartlikeAnimate/AnimationDrawableResource.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="26" column="26" lean-forward="false" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-          <folding>
-            <element signature="e#39#159#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="336">
+          <caret line="45" column="1" lean-forward="false" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="text-editor">
-        <state relative-caret-position="393">
+        <state relative-caret-position="570">
           <caret line="38" column="18" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
           <folding />
         </state>
@@ -4331,28 +3829,34 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/soemsak/likeanimate/MainActivity.kt">
+    <entry file="file://$PROJECT_DIR$/heartlikeAnimate/src/main/java/com/example/heartlikeAnimate/AnimationDrawableResource.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        <state relative-caret-position="420">
+          <caret line="30" column="39" lean-forward="false" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
           <folding>
-            <element signature="e#40#483#0" expanded="true" />
-            <element signature="e#1864#2116#0" expanded="false" />
-            <element signature="e#2513#3663#0" expanded="false" />
-            <element signature="e#3738#3848#2" expanded="false" />
-            <element signature="e#4259#4510#0" expanded="false" />
-            <element signature="e#4556#4864#0" expanded="false" />
-            <element signature="e#4906#6055#0" expanded="false" />
+            <element signature="e#39#159#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/heartlikeAnimate/src/main/java/com/example/heartlikeAnimate/AnimateUtil.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="34" column="86" lean-forward="true" selection-start-line="34" selection-start-column="86" selection-end-line="34" selection-end-column="86" />
+        <state relative-caret-position="1005">
+          <caret line="67" column="9" lean-forward="false" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
           <folding>
-            <element signature="e#46#513#0" expanded="true" />
+            <element signature="e#46#396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/soemsak/likeanimate/MainActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="29" column="85" lean-forward="false" selection-start-line="29" selection-start-column="85" selection-end-line="29" selection-end-column="85" />
+          <folding>
+            <element signature="e#40#483#0" expanded="true" />
+            <element signature="e#3393#3503#2" expanded="false" />
+            <element signature="e#3806#5622#2" expanded="false" />
           </folding>
         </state>
       </provider>
